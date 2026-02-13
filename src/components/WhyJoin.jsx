@@ -91,7 +91,7 @@ export default function WhyJoin() {
                 className="h-100"
               >
                 <div 
-                  className="p-8 rounded-3xl h-100 transition-all duration-500 hover:scale-105 hover:shadow-2xl"
+                  className="p-8 rounded-3xl h-100 transition-all duration-500 hover:scale-105 hover:shadow-2xl text-center"
                   style={{
                     background: 'linear-gradient(135deg, rgba(139, 92, 246, 0.08) 0%, rgba(59, 130, 246, 0.04) 100%)',
                     border: '1px solid rgba(139, 92, 246, 0.25)',
@@ -100,7 +100,7 @@ export default function WhyJoin() {
                   }}
                 >
                   <motion.div 
-                    className="mb-6"
+                    className="mb-6 d-flex justify-content-center align-items-center"
                     style={{ 
                       color: benefit.color,
                       fontSize: '3.5rem'
