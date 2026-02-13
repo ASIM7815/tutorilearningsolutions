@@ -54,7 +54,12 @@ export default function Hero() {
               backgroundClip: 'text',
               display: 'block'
             }}>
-              National AI, Coding & Financial Literacy
+              <span className="d-none d-md-inline">National AI, Coding & Financial Literacy</span>
+              <span className="d-block d-md-none">
+                National AI,<br />
+                Coding &<br />
+                Financial Literacy
+              </span>
             </span>
             <span style={{ 
               color: '#fbbf24',
