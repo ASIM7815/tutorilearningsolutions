@@ -5,6 +5,7 @@ import ExamCategories from './components/ExamCategories';
 import HowItWorks from './components/HowItWorks';
 import Stats from './components/Stats';
 import StudyMaterials from './components/StudyMaterials';
+import WhyJoin from './components/WhyJoin';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 
@@ -19,6 +20,7 @@ function App() {
         <HowItWorks />
         <Stats />
         <StudyMaterials />
+        <WhyJoin />
         <FAQ />
       </main>
       <Footer />

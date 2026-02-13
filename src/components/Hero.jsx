@@ -32,56 +32,58 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="hero-badge"
           >
-            <FaAward /> 2026 Registration Open
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="hero-tagline"
-          >
-            {"COMPETE . LEARN . GROW".split("").map((char, i) => (
-              <motion.span
-                key={i}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3, delay: 0.1 + i * 0.03 }}
-                style={{ display: 'inline-block' }}
-              >
-                {char === " " ? "\u00A0" : char}
-              </motion.span>
-            ))}
+            <FaAward /> 2026 Registration Open Soon
           </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.15 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
             className="hero-title"
+            style={{ 
+              fontSize: 'clamp(2.5rem, 8vw, 5.5rem)',
+              fontWeight: '900',
+              lineHeight: '1.1',
+              marginBottom: '2rem'
+            }}
           >
-            <div style={{ whiteSpace: 'nowrap' }}>NATIONAL STUDENTS'</div>
-            <span className="hero-title-highlight" style={{ display: 'block' }}>OLYMPIAD</span>
+            <span style={{ 
+              background: 'linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #ec4899 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+              display: 'block'
+            }}>
+              National AI, Coding & Financial Literacy
+            </span>
+            <span style={{ 
+              color: '#fbbf24',
+              display: 'block',
+              marginTop: '1rem',
+              fontSize: '1.2em'
+            }}>
+              Olympiad 2026
+            </span>
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="hero-subtitle"
+            style={{
+              fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
+              color: '#e0e7ff',
+              lineHeight: '1.8',
+              maxWidth: '900px',
+              margin: '0 auto 2rem',
+              fontWeight: '400'
+            }}
           >
-            (Academic Excellence Assessment Program)
+            A fun and interactive national online competition for students aged <span style={{ color: '#fbbf24', fontWeight: '600' }}>10 to 18</span>. 
+            Learn Artificial Intelligence, coding, and money management in a simple and enjoyable way.
           </motion.p>
 
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="hero-description"
-          >
-            Join 50,000+ students mastering AI, Coding & Financial Literacy
-            <br />across 28 states in India's premier academic competition.
-          </motion.p>
+
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
