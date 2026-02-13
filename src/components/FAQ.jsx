@@ -70,7 +70,7 @@ export default function FAQ() {
                   <Accordion.Item
                     key={i}
                     eventKey={String(i)}
-                    className="glass-card border-0 overflow-hidden"
+                    className="glass-card border-0"
                   >
                     <Accordion.Header>
                       <span className="text-white font-medium">{faq.q}</span>

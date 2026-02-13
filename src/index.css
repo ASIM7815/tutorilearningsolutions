@@ -1304,7 +1304,16 @@ html, #root {
 .accordion-button { background: rgba(139, 92, 246, 0.05) !important; color: #e2e8f0 !important; box-shadow: none !important; }
 .accordion-button:not(.collapsed) { background: rgba(139, 92, 246, 0.15) !important; color: #8b5cf6 !important; box-shadow: none !important; }
 .accordion-button::after { filter: invert(1) brightness(0.7); }
-.accordion-body { color: #94a3b8 !important; background: transparent !important; }
+.accordion-body { 
+  color: #94a3b8 !important; 
+  background: transparent !important; 
+  padding: 1.25rem !important;
+  line-height: 1.7 !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+.accordion-collapse { overflow: visible !important; }
 
 /* ===== Force dark theme on all bootstrap elements ===== */
 .container, .container-fluid, .row, .col,
