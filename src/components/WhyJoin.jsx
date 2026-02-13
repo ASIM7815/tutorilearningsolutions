@@ -35,7 +35,7 @@ export default function WhyJoin() {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   return (
-    <section className="py-24 md:py-32 relative overflow-hidden">
+    <section className="py-24 md:py-32 relative overflow-hidden" style={{ marginBottom: '4rem' }}>
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-900/10 to-transparent" />
       
       <Container className="relative z-10">
