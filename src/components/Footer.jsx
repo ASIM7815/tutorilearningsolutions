@@ -28,13 +28,7 @@ export default function Footer() {
               transition={{ duration: 0.5 }}
             >
               <a href="#home" className="footer-brand">
-                <div className="footer-logo">
-                  <FaTrophy />
-                </div>
-                <div>
-                  <span className="footer-brand-name">tutor.i</span>
-                  <span className="footer-brand-year">2026</span>
-                </div>
+                <img src="/tutor.i.png" alt="tutor.i Logo" className="h-16 w-auto" />
               </a>
               <p className="footer-description">
                 National Level Student's Olympiad — India's fastest-growing competitive exam platform for AI, Coding, and Financial Literacy.
